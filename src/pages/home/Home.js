@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 
 class HomeView extends Component {
   render() {
-    return <p>Home</p>
+    return (
+      <div>
+        <p>Home</p>
+        { this.props.children }
+      </div>
+    )
   }
 }
 
