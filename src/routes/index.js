@@ -5,6 +5,6 @@ export default [
         indexRoute: true,
         component: About,
     },
-    require('./home/routes'),
-    require('./about/routes')
+    require('./home/'),
+    require('./about/')
 ];
