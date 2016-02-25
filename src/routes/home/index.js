@@ -4,7 +4,7 @@ module.exports = {
   getChildRoutes(location, cb) {
     require.ensure([], (require) => {
       cb(null, [
-        require('./components/containers/home-item')
+        require('./components/home-item')
       ])
     })
   },
