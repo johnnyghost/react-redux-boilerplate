@@ -6,7 +6,10 @@ import routes from './../../routes';
 class Root extends Component {
   render() {
     return (
-      <Router history={ hashHistory } routes={ routes }></Router>
+      <Router
+        history={ hashHistory }
+        routes={ routes }>
+      </Router>
     )
   }
 }
