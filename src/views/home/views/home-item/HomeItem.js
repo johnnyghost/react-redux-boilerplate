@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class HomeItem extends Component {
   render() {
-    return <p>{ this.props.params.id }</p>
+    return <p>{ this.props.params.id }</p>;
   }
 }
 

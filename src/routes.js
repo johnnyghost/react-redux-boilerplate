@@ -1,5 +1,5 @@
-import { App } from './components/containers/';
-import routes from './routes/';
+import routes from './views/';
+import App from './containers/App';
 
 const configuration = {
   path: '/',

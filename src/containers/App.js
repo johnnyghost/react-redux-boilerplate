@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class HomeView extends Component {
+class App extends Component {
   render() {
     return (
-      <div>
-        <p>Home</p>
+      <div className="app">
+        <h1>App</h1>
         { this.props.children }
       </div>
-    )
+    );
   }
 }
 
-export default HomeView;
+export default App;

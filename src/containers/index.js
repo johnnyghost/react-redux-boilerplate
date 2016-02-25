@@ -4,4 +4,4 @@ import Root from './Root';
 export {
   App,
   Root
-}
+};

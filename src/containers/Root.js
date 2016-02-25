@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Router, hashHistory } from 'react-router';
 
-import routes from './../../routes';
+import routes from './../routes';
 
 class Root extends Component {
   render() {
@@ -10,7 +10,7 @@ class Root extends Component {
         history={ hashHistory }
         routes={ routes }>
       </Router>
-    )
+    );
   }
 }
 
