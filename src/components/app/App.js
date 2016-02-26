@@ -8,10 +8,9 @@ class App extends Component {
     return (
       <div className="app">
         <Header></Header>
-        <section className="content row">
-          <h1>App</h1>
+        <section className="content">
+          { this.props.children }
         </section>
-        { this.props.children }
       </div>
     );
   }

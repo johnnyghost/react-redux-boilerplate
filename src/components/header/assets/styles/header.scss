@@ -12,14 +12,18 @@
     margin-top: 30px;
 
     &__item {
-      color: #39464E;
       display: inline;
       font-size: .9em;
       padding: 0 10px;
 
-      &:hover {
-        color: #f36;
-        cursor: pointer;
+      a {
+        color: #39464E;
+        text-decoration: none;
+        
+        &:hover {
+          color: #f36;
+          cursor: pointer;
+        }
       }
       &--highlight {
         color: #39464E;
