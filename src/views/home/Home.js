@@ -4,7 +4,9 @@ class HomeView extends Component {
   render() {
     return (
       <div>
-        <p>Home</p>
+        <section className="home row">
+          <h2>Home</h2>
+        </section>
         { this.props.children }
       </div>
     );

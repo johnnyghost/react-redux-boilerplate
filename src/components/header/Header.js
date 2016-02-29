@@ -16,7 +16,7 @@ const Header = () => {
             <Link to="about">My movies</Link>
           </li>
           <li className="menu__item">
-            <Link to="home">Watchlist</Link>
+            <Link to="watchlist">Watchlist</Link>
           </li>
           <li className="menu__item">
             <img className="img-inline-fix" src="src/components/header/assets/images/magnifier.svg"/>

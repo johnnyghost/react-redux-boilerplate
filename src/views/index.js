@@ -1,10 +1,11 @@
-import About from './about/About';
+import Home from './home/Home';
 
 export default [
     {
         indexRoute: true,
-        component: About,
+        component: Home,
     },
     require('./home/'),
-    require('./about/')
+    require('./my-movies/'),
+    require('./watchlist/')
 ];
