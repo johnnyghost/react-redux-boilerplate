@@ -174,6 +174,7 @@ function httpErrorHandler(error:Object):HTTPError {
  * @return {Object} the response
  */
 function successResponseHandler(response:Object = {}) {
+
   if (response.data) {
     return response.data;
   }
@@ -190,6 +191,7 @@ function parseHttpOptions(options:Object):Object {
 
   var optionsMapper = {
     baseURL : 'baseURL',
+    mode    : 'mode',
     params  : 'params',
     data    : 'data',
     auth    : 'auth',
