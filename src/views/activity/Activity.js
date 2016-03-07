@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class HomeView extends Component {
+class ActivityView extends Component {
   render() {
     return (
       <div>
-        <section className="home row">
-          <h2>Home</h2>
+        <section className="activity row">
+          <h2>Activity</h2>
         </section>
         { this.props.children }
       </div>
@@ -13,4 +13,4 @@ class HomeView extends Component {
   }
 }
 
-export default HomeView;
+export default ActivityView;

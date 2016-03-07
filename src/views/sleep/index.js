@@ -1,8 +1,8 @@
 module.exports = {
-  path: ':id',
+  path: 'sleep',
   getComponent(location, cb) {
     require.ensure([], (require) => {
-      cb(null, require('./HomeItem').default);
+      cb(null, require('./Sleep').default);
     });
   }
 };

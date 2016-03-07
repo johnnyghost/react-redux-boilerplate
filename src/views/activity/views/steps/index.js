@@ -1,8 +1,8 @@
 module.exports = {
-  path: 'watchlist',
+  path: ':id',
   getComponent(location, cb) {
     require.ensure([], (require) => {
-      cb(null, require('./Watchlist').default);
+      cb(null, require('./Steps').default);
     });
   }
 };

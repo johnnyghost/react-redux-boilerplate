@@ -1,17 +1,17 @@
 module.exports = {
-  path: 'home',
+  path: 'activity',
 
   getChildRoutes(location, cb) {
     require.ensure([], (require) => {
       cb(null, [
-        require('./views/home-item')
+        require('./views/Steps')
       ]);
     });
   },
 
   getComponents(location, cb) {
     require.ensure([], (require) => {
-      cb(null, require('./Home').default);
+      cb(null, require('./Activity').default);
     });
   }
 };

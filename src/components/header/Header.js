@@ -10,13 +10,13 @@ const Header = () => {
 
         <ul className="menu large-8 columns">
           <li className="menu__item">
-            <Link to="home">Home</Link>
+            <Link to="activity">Activity</Link>
           </li>
           <li className="menu__item">
-            <Link to="about">My movies</Link>
+            <Link to="weight">Weight</Link>
           </li>
           <li className="menu__item">
-            <Link to="watchlist">Watchlist</Link>
+            <Link to="sleep">Sleep</Link>
           </li>
           <li className="menu__item">
             <img className="img-inline-fix" src="src/components/header/assets/images/magnifier.svg"/>

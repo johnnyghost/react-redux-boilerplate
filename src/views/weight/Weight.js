@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class MyMoviesView extends Component {
+class WeightView extends Component {
   render() {
     return (
       <section className="about row">
-        <h2>My Movies</h2>
+        <h2>Weight</h2>
       </section>
     );
   }
 }
 
-export default MyMoviesView;
+export default WeightView;
