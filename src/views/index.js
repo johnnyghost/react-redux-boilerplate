@@ -7,5 +7,6 @@ export default [
   },
   require('./activity/'),
   require('./weight/'),
-  require('./sleep/')
+  require('./sleep/'),
+  require('./auth/')
 ];

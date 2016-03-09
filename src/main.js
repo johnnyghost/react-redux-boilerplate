@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom';
 import { Root } from './components';
 
 import http from './core/transport/http';
+import axios from 'axios';
 
-http.get('https://api.themoviedb.org/3/movie/550?api_key=a40440b052edf354fe17b0fea6da9540', {
-  mode: 'no-cors'
-}).then((i) => {
-  console.log('i', i);
-})
+// window.location.href = "https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=227NS7&redirect_uri=http://localhost:3000/auth/&scope=activity nutrition heartrate location nutrition profile settings sleep social weight&expires_in=604800";
+
+// axios.get('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=227NS7&redirect_uri=http://localhost:3000/&scope=activity nutrition heartrate location nutrition profile settings sleep social weight&expires_in=604800', {
+//   headers: {
+//     'Accept': 'application/json',
+//     'Access-Control-Allow-Origin': '*'
+//   }
+// }).then((i) => {
+//   console.log(i);
+// }).catch((error) => {
+//   console.log('error -> ', error);
+// })
 
 ReactDOM.render(
   <Root/>,
