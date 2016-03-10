@@ -19,7 +19,7 @@ const Header = () => {
             <Link to="sleep">Sleep</Link>
           </li>
           <li className="menu__item">
-            <img className="img-inline-fix" src="src/components/header/assets/images/magnifier.svg"/>
+            <img className="img-inline-fix" src="/src/components/header/assets/images/magnifier.svg"/>
           </li>
         </ul>
 
