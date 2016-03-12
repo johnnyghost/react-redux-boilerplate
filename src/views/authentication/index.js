@@ -1,8 +1,8 @@
 module.exports = {
-  path: 'auth',
+  path: 'authentication',
   getComponent(location, cb) {
     require.ensure([], (require) => {
-      cb(null, require('./Auth').default);
+      cb(null, require('./Authentication').default);
     });
   }
 };
