@@ -1,3 +1,6 @@
+var path = require('path');
+var env = process.env.NODE_ENV || 'dev';
+
 module.exports = {
   entry: './src/main.js',
   output: {
@@ -9,6 +12,14 @@ module.exports = {
     inline: true,
     port: 3000,
     historyApiFallback: true
+  },
+  resolve: {
+    root: path.resolve(__dirname),
+    // create tasks to choose prod/dev env
+    // need to create an issue
+    alias: {
+      config: 'config/config.' + env + '.js'
+    }
   },
   module: {
     loaders: [
