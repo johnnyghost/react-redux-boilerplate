@@ -1,6 +1,5 @@
 module.exports = {
   path: 'activity',
-
   getChildRoutes(location, cb) {
     require.ensure([], (require) => {
       cb(null, [

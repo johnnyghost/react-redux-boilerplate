@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import { authentication } from './../../core/services';
+
+authentication.authenticate();
 class WeightView extends Component {
   render() {
     return (

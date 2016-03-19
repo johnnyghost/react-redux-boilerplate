@@ -9,9 +9,14 @@ const authentication = {
    * @method
    */
   authenticate: () => {
-    // window.location.href = url.format(config.CLIENTS.FITBIT);
+    window.location.href = url.format(config.CLIENTS.FITBIT);
   },
 
+  /**
+   * [description]
+   * @method
+   * @return {[type]} [description]
+   */
   isAuthenticated: () => {
 
   }
