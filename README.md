@@ -2,7 +2,7 @@
 
 [wip]
 
-`npm run start`
+`npm run start`    
 `npm run production`
 
 ## Environment configuration
