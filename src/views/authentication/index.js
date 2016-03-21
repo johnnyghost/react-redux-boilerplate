@@ -1,8 +1,9 @@
 module.exports = {
   path: 'auth',
-  onEnter: (a,b) => {
-    console.log(a);
-    console.log(b);
+  onEnter: (next, transition) => {
+    transition({
+      pathname: '/'
+    });
   },
   getComponent(location, cb) {
     require.ensure([], (require) => {
