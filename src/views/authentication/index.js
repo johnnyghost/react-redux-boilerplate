@@ -4,10 +4,5 @@ module.exports = {
     transition({
       pathname: '/'
     });
-  },
-  getComponent(location, cb) {
-    require.ensure([], (require) => {
-      cb(null, require('./Authentication').default);
-    });
   }
 };
