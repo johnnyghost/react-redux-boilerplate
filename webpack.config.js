@@ -13,6 +13,7 @@ module.exports = {
     port: 3000,
     historyApiFallback: true
   },
+  devtool: 'source-map',
   resolve: {
     root: path.resolve(__dirname),
     // create tasks to choose prod/dev env
