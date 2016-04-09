@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import './assets/styles/header.scss';
 
+import magnifierImage from './assets/images/magnifier.svg';
 const Header = () => {
   return (
     <header className="header">
@@ -19,7 +20,7 @@ const Header = () => {
             <Link to="sleep">Sleep</Link>
           </li>
           <li className="menu__item">
-            <img className="img-inline-fix" src="/src/components/header/assets/images/magnifier.svg"/>
+            <img className="img-inline-fix" src={ magnifierImage }/>
           </li>
         </ul>
 
