@@ -21,7 +21,7 @@ let config = {
         response_type: 'token',
         client_id: '<CLIENT_ID>',
         redirect_uri: '<REDIRECT_URI>',
-        scope: []
+        scope: ''
       }
     }
   }
