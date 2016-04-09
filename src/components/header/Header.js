@@ -1,32 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router';
-import './assets/styles/header.scss';
+import header from './assets/styles/header.css';
 
 import magnifierImage from './assets/images/magnifier.svg';
 const Header = () => {
   return (
-    <header className="header">
-      <div className="header__container row">
-        <div className="header__logo large-1 columns">ghost</div>
+    <header className={ header.root }>
+      <div className="row">
+        <div className= { header.logo + ' large-1 columns' } >ghost</div>
 
-        <ul className="menu large-8 columns">
-          <li className="menu__item">
+        <ul className={ header.menu + ' large-8 columns'}>
+          <li className={ header.menuItem }>
             <Link to="activity">Activity</Link>
           </li>
-          <li className="menu__item">
+          <li className={ header.menuItem }>
             <Link to="weight">Weight</Link>
           </li>
-          <li className="menu__item">
+          <li className={ header.menuItem }>
             <Link to="sleep">Sleep</Link>
           </li>
-          <li className="menu__item">
-            <img className="img-inline-fix" src={ magnifierImage }/>
+          <li className={ header.menuItem }>
+            <img src={ magnifierImage }/>
           </li>
         </ul>
 
-        <ul className="menu large-2 columns end">
-          <li className="menu__item">Login</li>
-          <li className="menu__item--highlight">Sign up</li>
+        <ul className={ header.menu + ' large-2 columns end'}>
+          <li className={ header.menuItem }>Login</li>
+          <li className={ header.menuItemHighlight }>Sign up</li>
         </ul>
 
       </div>

@@ -54,6 +54,10 @@ module.exports = {
         loaders: ['style', 'css', 'sass', 'postcss']
       },
       {
+        test: /\.css$/,
+        loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+      },
+      {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
         loader: 'babel'
