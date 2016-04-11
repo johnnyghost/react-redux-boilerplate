@@ -8,7 +8,7 @@ class ActivityView extends Component {
         <section className="activity row">
           <h2>Activity</h2>
         </section>
-        { this.props.children }
+          { this.props.children }
       </div>
     );
   }
