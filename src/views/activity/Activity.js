@@ -1,6 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 class ActivityView extends Component {
+
+  static propTypes = {
+    children: PropTypes.node
+  }
+
   render() {
 
     return (
@@ -8,7 +13,7 @@ class ActivityView extends Component {
         <section className="activity row">
           <h2>Activity</h2>
         </section>
-          { this.props.children }
+        { this.props.children }
       </div>
     );
   }
