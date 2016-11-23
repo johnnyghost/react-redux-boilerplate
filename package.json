@@ -15,7 +15,7 @@
   "author": "johnnyghost",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.2.1",
+    "react": "^15.4.1",
     "react-dom": "^15.2.1",
     "react-redux": "^4.4.0",
     "react-router": "^3.0.0",
