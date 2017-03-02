@@ -1,6 +1,10 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Root } from './components';
+
+const Root = () => {
+  return <div>ola</div>
+}
 
 ReactDOM.render(
   <Root/>,
