@@ -1,9 +1,22 @@
-dist/
-node_modules/
-
+# Ignore Mac DS_Store files
 .DS_Store
 
-config/config.dev.js
-config/config.prod.js
+# Dependency directories
+node_modules
 
-npm-debug.log
+# Distribution folder
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Yarn
+.yarn
+
+# Coverage directory
+coverage
+
+# tokens
+src/shared/config/common/tokens.js

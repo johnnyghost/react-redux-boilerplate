@@ -1,5 +1,1 @@
-import authentication from './authentication/authentication';
-
-export {
-  authentication
-};
+export githubService from './github';

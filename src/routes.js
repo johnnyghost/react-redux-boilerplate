@@ -1,9 +1,9 @@
-import routes from './views/';
-import App from './components/app/App';
+import routes from 'views';
+import { Main } from 'components';
 
-const configuration = {
+const configuration ={
   path: '/',
-  component: App,
+  component: Main,
   childRoutes: routes
 };
 

@@ -1,12 +1,9 @@
-import Activity from './activity/Activity';
+import Home from './home/Home';
 
 export default [
   {
     indexRoute: true,
-    component: Activity
+    component: Home
   },
-  require('./activity/'),
-  require('./weight/'),
-  require('./sleep/'),
-  require('./authentication/')
+  require('./home/')
 ];
