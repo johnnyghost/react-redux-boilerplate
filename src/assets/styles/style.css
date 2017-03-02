@@ -1,3 +1,2 @@
-body {
-  background: red;
-}
+@import 'sanitize.css/sanitize';
+@import 'global';

@@ -33,10 +33,9 @@ module.exports = {
     })
   ],
   resolve: {
-    modules: [PATHS.SOURCE, PATHS.NODE_MODULES, `${PATHS.SOURCE}/shared`],
+    modules: [PATHS.SOURCE, PATHS.NODE_MODULES],
     alias: {
-      config: `${PATHS.SOURCE}/shared/config/${NODE_ENV}/index.js`,
-      manifest: `${PATHS.DIST}/manifest.json`
+      config: `${PATHS.SOURCE}/config/${NODE_ENV}/index.js`
     }
   },
   module: {
