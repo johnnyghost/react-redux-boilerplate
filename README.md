@@ -4,17 +4,8 @@
 
 ## Quick start
 
-`npm run watch` to run in development
+`npm run watch` to run in development    
 `npm run build:production` to build the project
-
-## Configuration
-
-### Tokens
-Create a tokens file `tokens.js` on the common folder, follow the `token.sample.js` file.
-
-```
-export const GITHUB_TOKEN='<your_github_token>';
-```
 
 ## License
 
