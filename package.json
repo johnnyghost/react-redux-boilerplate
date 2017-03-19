@@ -39,7 +39,7 @@
     "eslint": "^3.16.1",
     "eslint-loader": "^1.6.3",
     "eslint-plugin-flowtype": "^2.30.0",
-    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-react": "^6.10.2",
     "extract-text-webpack-plugin": "^2.0.0",
     "html-webpack-plugin": "^2.28.0",
     "postcss-import": "^9.1.0",
